@@ -3,6 +3,7 @@ package com.example.crud.adapters;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -16,9 +17,16 @@ import java.util.List;
 public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentViewHolder> {
 
     private List<Student> studentList;
+    private OnStudentClickListener listener;
 
-    public StudentAdapter(List<Student> studentList) {
+    public interface OnStudentClickListener {
+        void onEditClick(int position);
+        void onDeleteClick(int position);
+    }
+
+    public StudentAdapter(List<Student> studentList, OnStudentClickListener listener) {
         this.studentList = studentList;
+        this.listener = listener;
     }
 
     @NonNull
@@ -33,6 +41,9 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentV
         Student student = studentList.get(position);
         holder.nameTextView.setText(student.getName());
         holder.idTextView.setText(student.getId());
+
+        holder.editButton.setOnClickListener(v -> listener.onEditClick(position));
+        holder.deleteButton.setOnClickListener(v -> listener.onDeleteClick(position));
     }
 
     @Override
@@ -47,11 +58,14 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentV
 
     public static class StudentViewHolder extends RecyclerView.ViewHolder {
         TextView nameTextView, idTextView;
+        Button editButton, deleteButton;
 
         public StudentViewHolder(@NonNull View itemView) {
             super(itemView);
             nameTextView = itemView.findViewById(R.id.textViewName);
             idTextView = itemView.findViewById(R.id.textViewId);
+            editButton = itemView.findViewById(R.id.buttonEdit);
+            deleteButton = itemView.findViewById(R.id.buttonDelete);
         }
     }
 }

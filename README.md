@@ -8,6 +8,55 @@ Android project for student CRUD assignment# Student Management Android App - As
 **Submission Date:** Thu May 29, 2025
 
 ---
+📱 Screenshots
+
+🏠 Main Interface
+<div align="center">
+  <img src="screenshots/main_screen.png" alt="Main Screen" width="300"/>
+  <br/>
+  <em>Main screen showing the add student form and student list</em>
+</div>
+<br/>
+
+---
+➕ Adding Students (CREATE Operation)
+<div align="center">
+  <img src="screenshots/add_student_form.png" alt="Add Student Form" width="300"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/input_validation.png" alt="Input Validation" width="300"/>
+</div>
+<div align="center">
+  <em>Left: Clean input form | Right: Real-time validation in action</em>
+</div>
+<br/>
+
+---
+
+📋 Student List (READ Operation)
+<div align="center">
+  <img src="screenshots/student_list.png" alt="Student List" width="300"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/empty_state.png" alt="Empty State" width="300"/>
+</div>
+<div align="center">
+  <em>Left: Populated student list | Right: Empty state with helpful guidance</em>
+</div>
+<br/>
+
+---
+
+✏️ Editing Students (UPDATE Operation)
+<div align="center">
+  <img src="screenshots/expandable_actions.png" alt="Expandable Actions" width="300"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/edit_dialog.png" alt="Edit Dialog" width="300"/>
+</div>
+<div align="center">
+  <em>Left: Expandable action buttons | Right: Edit student dialog</em>
+</div>
+<br/>
+
+---
 
 ## 📋 Assignment Requirements Checklist
 

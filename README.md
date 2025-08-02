@@ -1,10 +1,18 @@
-# Android CRUD Student with Array List
+# Android CRUD Student with Array List - Assignment Submission
 
-**Student Name:** Han Vatana  
-**Student ID:** PP50130  
-**Course:** Mobile Programming
-**Assignment:** Android CRUD Student with Array List
-**Submission Date:** Thu May 29, 2025
+<div align="center">
+
+| Field | Details |
+|-------|---------|
+| **Student Name** | Han Vatana |
+| **Student ID** | PP50130 |
+| **Course** | Mobile Programming |
+| **Assignment** | Android CRUD Student with Array List |
+| **Submission Date** | Thu May 29, 2025 |
+
+</div>
+
+---
 
 ---
 📱 Screenshots

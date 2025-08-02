@@ -1,10 +1,9 @@
-# student-crud-app
-Android project for student CRUD assignment# Student Management Android App - Assignment Submission
+# Android CRUD Student with Array List
 
 **Student Name:** Han Vatana  
 **Student ID:** PP50130  
-**Course:** Mobile Programming 
-**Assignment:** Android CRUD Student with Array List 
+**Course:** Mobile Programming
+**Assignment:** Android CRUD Student with Array List
 **Submission Date:** Thu May 29, 2025
 
 ---
@@ -53,6 +52,19 @@ Android project for student CRUD assignment# Student Management Android App - As
 </div>
 <div align="center">
   <em>Left: Expandable action buttons | Right: Edit student dialog</em>
+</div>
+<br/>
+
+---
+
+🗑️ Deleting Students (DELETE Operation)
+<div align="center">
+  <img src="screenshots/delete_confirmation.png" alt="Delete Confirmation" width="300"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/undo_functionality.png" alt="Undo Functionality" width="300"/>
+</div>
+<div align="center">
+  <em>Left: Delete confirmation dialog | Right: Undo snackbar notification</em>
 </div>
 <br/>
 
@@ -260,15 +272,15 @@ public class Student {
 
 ## 🎯 Grading Rubric Self-Assessment
 
-| Criteria | Implementation | Score |
-|----------|---------------|-------|
-| **CRUD Operations** | ✅ All four operations fully implemented | ⭐⭐⭐⭐ |
-| **UI Design** | ✅ Material Design with excellent UX | ⭐⭐⭐ |
-| **Code Quality** | ✅ Clean, organized, well-commented | ⭐⭐⭐⭐ |
-| **Error Handling** | ✅ Comprehensive validation & feedback | ⭐⭐⭐⭐ |
-| **User Experience** | ✅ Intuitive with helpful features | ⭐⭐⭐ |
-| **Resource Management** | ✅ Proper externalization & organization | ⭐⭐⭐ |
-| **Android Components** | ✅ Correct use of Activities, Adapters, etc. | ⭐⭐⭐⭐⭐ |
+| Criteria                | Implementation                              | Score |
+| ----------------------- | ------------------------------------------- | ----- |
+| **CRUD Operations**     | ✅ All four operations fully implemented     | ⭐⭐⭐⭐  |
+| **UI Design**           | ✅ Material Design with excellent UX         | ⭐⭐⭐   |
+| **Code Quality**        | ✅ Clean, organized, well-commented          | ⭐⭐⭐⭐  |
+| **Error Handling**      | ✅ Comprehensive validation & feedback       | ⭐⭐⭐⭐  |
+| **User Experience**     | ✅ Intuitive with helpful features           | ⭐⭐⭐   |
+| **Resource Management** | ✅ Proper externalization & organization     | ⭐⭐⭐   |
+| **Android Components**  | ✅ Correct use of Activities, Adapters, etc. | ⭐⭐⭐⭐⭐ |
 
 ---
 
@@ -323,4 +335,3 @@ Through this assignment, I have demonstrated proficiency in:
 
 ---
 
-**Thank you for reviewing my assignment! I'm proud of the clean, professional result and the attention to both functionality and user experience.** 🎉
